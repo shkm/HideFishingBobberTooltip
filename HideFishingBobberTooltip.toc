@@ -1,0 +1,5 @@
+## Interface: 50400
+## Title: Hide Fishing Bobber Tooltip
+## Notes: Hides the tooltip for the fishing bobber.
+
+core.lua
