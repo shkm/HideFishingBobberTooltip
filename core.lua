@@ -8,9 +8,13 @@ local L = {
 }
 
 GameTooltip:HookScript("OnShow", function()
-  local tooltipText = GameTooltipTextLeft1
+  local localized = L[GetLocale()]
 
-  if tooltipText and tooltipText:GetText() == L[GetLocale()] then
+  -- don't do anything if we don't have a string for this locale
+  if not localized then return end
+
+  local tooltipText = GameTooltipTextLeft1
+  if tooltipText and tooltipText:GetText() == localized then
     GameTooltip:Hide()
   end
 end)
