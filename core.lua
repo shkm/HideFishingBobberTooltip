@@ -8,7 +8,7 @@ frame:SetScript("OnEvent", function()
     esES = "Corcho de pesca",
     frFR = "Flotteur",
     ptBR = "Flutador para Pesca",
-    ruRU = "поплавок"
+    ruRU = "Поплавок"
 
     -- itIT = "",
     -- esMX = "",
